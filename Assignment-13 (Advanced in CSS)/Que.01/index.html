@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root {
+        --primarycolor:#00B7FF;
+        --secondarycolor:#6c757d;
+        --content-color: #ffff;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        border: 1px solid black;
+    }
+
+    .primarybtn{
+        font-size: 17px;
+        margin: 5px;
+        border: none;
+        width: 130px;
+        height: 40px;
+        background-color: var(--primarycolor);
+        color: var(--content-color);
+        
+    }
+    
+    .secondarybtn{
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        background-color: var(--secondarycolor);
+        color: var(--content-color);
+        border: none;
+        
+    }
+</style>
+
+<body>
+    <div class="container">
+        <button class="primarybtn">Primary Button</button>
+        <button class="secondarybtn">Secondary Button</button>
+    </div>
+</body>
+
+</html>
